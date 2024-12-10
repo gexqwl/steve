@@ -1,0 +1,40 @@
+p{
+    color: rebeccapurple;
+}
+body{
+    background-color: rgb(220, 179, 236);
+}
+#topbar{
+    min-height: 300px;
+    width: 100%;
+    background-color: white;
+}  
+#topbar p {
+    font-size: 6vmin;
+    display: inline-block;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+#steve{
+    float: left;
+    margin-left: 2%;
+    margin-top: 5px;
+    max-width: 95%;
+    max-height: 95%;
+    transform: rotate(0deg);
+}
+#mainsection{
+    height: 60%;
+    width: 90%;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+p{
+    font-size: 4vmin;
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+    word-break: keep-all;
+}
