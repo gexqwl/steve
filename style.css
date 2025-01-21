@@ -21,7 +21,8 @@ body{
     margin-top: 5px;
     max-width: 95%;
     max-height: 95%;
-    transform: rotate(0deg);
+    transform: rotate(360deg);
+    animation: example 2s infinite;
 }
 #mainsection{
     height: 60%;
@@ -38,3 +39,25 @@ p{
     margin-right: 3%;
     word-break: keep-all;
 }
+@keyframes example {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(50px); }
+    100% { transform: translateY(0); }
+}
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+}
+.item {
+    background-color: rgb(29, 5, 51);
+    color: rgb(187, 157, 216);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 5px;
+}
+.item2 { order: 3; }
